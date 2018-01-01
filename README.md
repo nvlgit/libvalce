@@ -10,7 +10,7 @@ using Gtk;
 
 	var player = new Player ();
 	bool load = player.set_uri ("file:///home/user/Music/file.m4a");
-	if (bool)
+	if (load)
             player.play ();
         player.volume_changed.connect ( () => {
                stdout.printf ("Volume_changed: %f\n", player.volume);
