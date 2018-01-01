@@ -28,3 +28,11 @@ using Gtk;
         });
 
 ```
+### Building and Installation
+```
+git clone https://github.com/nvlgit/libvalce.git && cd libvalce
+meson builddir --prefix=/usr && cd builddir
+ninja
+su -c 'ninja install'
+```
+For rpmbuild: <a href="https://github.com/nvlgit/fedora-specs/blob/master/libvalce.spec">livalce.spec</a> 
