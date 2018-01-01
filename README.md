@@ -35,4 +35,4 @@ meson builddir --prefix=/usr && cd builddir
 ninja
 su -c 'ninja install'
 ```
-For rpmbuild: <a href="https://github.com/nvlgit/fedora-specs/blob/master/libvalce.spec">livalce.spec</a> 
+For rpmbuild: <a href="https://github.com/nvlgit/fedora-specs/blob/master/libvalce.spec">libvalce.spec</a> 
