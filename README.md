@@ -1,0 +1,2 @@
+# libvalce
+libVLC GObject wrapper
